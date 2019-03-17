@@ -1,0 +1,450 @@
+<!doctype html>
+<html>
+<head>
+    <title>Playing with CSS</title>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type content="text/html; charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    
+
+<style type="text/css">
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#F7F7F7;
+}
+
+.top_bar {
+background-color:#37b34a;
+height:4px;
+width:100%
+padding:0;
+margin:0;
+}
+
+.top_menu {
+    height:40px;
+    width:100%;
+    padding:12px 0 0 10px;
+    border-bottom:3px solid #e4e2e2;
+    background-color:white
+}
+
+.browse_box {
+    background-color:#e4e2e2;
+    height:30px;
+    width:130px;
+    border-bottom:1px #e4e2e2 solid; 
+    border-radius:5px;
+    padding:0 0 0 5px;
+    margin:0;
+    float:left;
+    color:#656566;
+    font-weight:bold;
+}
+
+.browse_box img {
+    height:20px;
+    padding-top:5px;
+    float:left;
+}
+
+.browse_box p {
+    padding:7px 0 0 0;
+    margin:0;
+    font-size:0.7em;
+}
+
+
+.search_box {
+    background-color: #e4e2e2;
+    height:30px;
+    width:180px;
+    border:1px #e4e2e2 solid;
+    border-radius:5px;
+    padding:0 0 0 5px;
+    margin:0 0 0 10px;
+    float:left;
+    color:#656566;
+    font-weight: bold;
+
+}
+
+
+.search_box input {
+    background-color: #e4e2e4;
+    font-style: italic;
+    width:170px;
+    border:none;
+font-size:0.8em;
+padding:8px 0 0 10px;
+background-image:image src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\magnifier.JPG">
+background-repeat:no-repeat;
+background-position:right top;
+}
+
+.logo {
+    padding:0 0 240px;
+    float:left;
+}
+
+
+.instructor {
+    padding:1px 0 0 300px;
+    float: left;
+    color: #656566;
+    font-weight:bold;
+    font-size:0.7em;
+    float: left;
+}
+
+
+.sep {
+    padding:4px 0 0 0;
+float:left;
+}
+
+.mycourse {
+    padding:1px 0 0 10px;
+    float:left;
+    color:#656566;
+    font-weight:bold;
+    font-size:0.7em;
+    float: left;
+}
+
+.bellface {
+    padding:0 0 0 15px;
+}
+
+.break {
+    clear:both;
+}
+
+.left_menu {
+    width:250px;
+    padding:20px 0 0 10ox;
+    margin:0 0 0 10px;
+    color:#6f6f70;
+    background-color:white;
+    float: left;
+}
+
+.left_menu ul {
+    padding:0;
+}
+
+.left_menu li {
+    list-style:none;
+    padding: 5px 5px 10px 10px;
+    background-image:url("images/greater_than.png");
+    background-repeat:no-repeat;
+    background-position:right center;
+}
+
+.left_menu a {
+    color:#6f6f70;
+    text-decoration:none;
+}
+
+.left_menu a:hover {
+    background-color:#37b34a;
+    color:white;
+}
+
+.main_body {
+    float:left;
+    width:800px;
+    padding:10px;
+    margin:10px 0 0 100px
+}
+
+.main_body 2 {
+    position: relative;
+    top-100px;
+    float: left;
+    width:800px;
+    padding: 10px;
+    margin:10px 0 0 380px;
+    color:green;
+    border:1px solid red;
+}
+
+h2 {
+color:#63839F;
+font-size:1.0em;
+font-weight:normal;
+padding:0px 400px 0px 0px;
+float: left;  
+}
+
+.main_body_header {
+    float: left;
+    padding:10px 0 0 10px;
+    width=80px;
+    background-color:white;
+    background-image:url("images/plus_sign.png");
+    background-repeat:no-repeat;
+    background-position:right center;
+}
+
+.main_body_header2 {
+    float:left;
+    padding:10px 0 0 10px;
+    width:80px;
+    background-color:white;
+    background-image:url("images/plus_sign.png");
+background-repeat:no-repeat;
+background-position:right center; 
+}
+
+.box_1 {
+    width:240px;
+    background-color:white;
+    float:left;
+    margin:20px 0 0 100px;  
+}
+
+.box_1 p {
+    font-weight:bold;
+    padding:5px 10px 5px 10px; 
+}
+
+.box_hr {
+    border-top:1px solid gray;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px; 
+}
+
+.box_cost {
+    color:green;
+    font-weight:bold;
+    padding:20px 0 0 5px;
+    float:left; 
+}
+
+.box_reviews {
+    float:left;
+    padding:10px 0 0 30px;
+    color:gray;
+}
+
+.box_students {
+    float: right;
+    color:gray;
+    padding:8px 0 10px 0;
+}
+
+.instructor_image {
+    width: 230px;
+    padding:10px 0 0 10px;
+    margin:0 0 0 0;
+    float:left;
+}
+
+.instructor_text {
+    font-size:0.8em;
+    width:200px;
+    float:right;
+    margin:0 0 0 0;
+    padding:0 0 0 0; 
+}
+
+.instructor_text img {
+    padding:10px 0 0 0;
+}
+
+.box_2 {
+    width:240px;
+    background-color:white;
+    float:right;
+    margin:20px 0 0 100px;  
+}
+
+.box_2 p {
+    font-weight:bold;
+    padding:5px 10px 5px 10px; 
+}
+
+
+.box_3 {
+    width:240px;
+    background-color:white;
+    float:left;
+    margin:20px 0 0 100px;  
+}
+
+.box_3 p {
+    font-weight:bold;
+    padding:5px 10px 5px 10px; 
+}
+
+a:visited {
+    color:black;
+}
+
+
+</style>
+</head>
+<body>
+<div class="fixedwidth">
+    <div class="top_bar"</div>
+        <div class="top_menu">
+            <div class="browse_box">
+                <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" height="245" />
+                <P>Browse Courses</P>
+        </div>
+        <div class="search_box">
+
+            <input type=text" placeholder="Search For Courses" />
+        </div>
+        <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy Logo.JPG" height="30" class="Logo">
+        <div class="instructor">
+            <P>Become an Instructor</P>
+        </div>
+        <div class="sep">
+            <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" height="30">
+        </div>
+        <div class="mycourse">
+            <P>My Courses</P>
+        </div>
+        <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" height="30">
+        </div> 
+<div class="break"></div>
+<div class="left_menu">
+    <a href=""><img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" height="30" /> My Courses</a>
+<P>
+    <a href=""><img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" height="30" />Recommended for You
+    </a>
+    <HR>
+<UL>
+    <LI><A HREF="">Development</A></LI>
+    <LI><A HREF="">Business</A></LI>
+    <LI><A HREF="">IT & Software</A></LI>
+    <LI><A HREF="">Office Productivity</A></LI>
+    <LI><A HREF="">Personal Development</A></LI>
+    <LI><A HREF="">DesignA></LI>
+        <LI><A HREF="">Marketing</A></LI>
+        <LI><A HREF="">Lifestyle</A></LI>
+        <LI><A HREF="">Photography</A></LI>
+        <LI><A HREF="">Health & Fitness</A></LI>
+        <LI><A HREF="">Teacher Training</A></LI>
+        <LI><A HREF="">Music</A></LI>
+        <LI><A HREF="">Academics</A></LI>
+        <LI><A HREF="">Language</A></LI>
+        <LI><A HREF="">Test Prep</A></LI>
+</UL>
+
+<div class="main_body">
+    <h2>New and Noteworthy</h2>
+    <div class="main_body_header">
+        View All
+    </div>
+</div>
+<div class="box_1">
+    <a href=""><img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" width="100"></a>
+    <a href=""><P>Beginner Digital Photography: How Do I Use My Camera?</P></a>
+    <div class="box_hr"></div>
+    <div class="box_cost">
+        Free
+    </div> <!--end dev box_cost-->
+    <div class="box_reveiws">
+        1 Reviews 
+        <br />
+<img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" width="100">
+    </div> <!--end div box_reviews-->
+    <div class="box_students">
+            Students 
+            <br />
+    <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" width="100">
+    442
+        </div> <!--end div box_students-->
+        <div class="break"></div>
+        <div class="box_hr"></div>
+        <div class="instructor_image">
+            <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" width="100">
+            <div class="instructor_text">
+                <strong>Regina P. Brown</strong>
+                <br/>
+                <i><span style="font-family:'Times New Roman', Times, serif;">Instructor/Photographer/Author</i></span> 
+</div><!--end div instructor_text-->
+</div> <!--end div instructor_image-->
+</div><!--end div box_1--> 
+
+<div class="box_2">
+    <a href=""><img src="Udemy_faux_filler_pic></a>
+    <a href=""><P>Introduction to Scrum Methodology and Agile Development</P></a>
+    <div class="box_hr"></div>
+    <div class="box_cost">
+        $10
+    </div> <!--end div box_cost-->
+    <div class="box_reviews">
+        2 Reviews
+        <br />
+        <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" width="100">
+    </div> <!--end div box_review-->
+    <div class="box_students">
+        Students<br />
+        <imng src="Udemy_faux_filler_pic" height="30">
+            327
+        </div> <!--end div box_students-->
+        <div class="break"></div>
+        <div class="box_hr"></div>
+        <div class="instructor_image">
+            <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" height="20">
+            <div class="instructor_text">
+                <strong>David Childerley</strong>
+                <br/>
+                <i><span style="font-family: 'Times New Roman', Times, serif;">EFT Performance Coach</span></i>
+                </div><!--end div instructor_text-->
+                </div>
+
+                <div cloass="box_3">
+                    <a href=""><img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" width="100"></a>
+                    <a href=""><P>CAPM Full Realistic Exam & CAPM Math Lectures</P></a>
+                    <div class="box_hr"></div>
+                    <div class="box_cost">
+                        $29
+                    </div> <!--end div box_cost-->
+                    <div class="box_reviews">
+                        1 Reviews
+                        <br />
+                        <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" height="30"
+                        
+</div><!--end div box_reviews-->
+
+<div class="box_students">
+    Students
+    <br />
+    <img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" height="30">
+    254
+    </div><!--end div box_students-->
+    <div class="break"></div>
+    <div class="box_hr"></div>
+    <div class="instructor_image"><img src="C:\Users\Teague\Google Drive (ladyteague@gmail.com)\Docz\Education\Udemy\Intro to HTML & CSS - Start Making Money As A Web Developer\My Webpages\CSS\Section 3 Portfolio Project\images\Udemy_faux_filler_pic.jpg" height="30">
+    <strong>Resit Gulec</strong>
+    <br />
+    <i><span style="font-family:'Times New Roman', Times, serif;">PMP, MBA, Project Manager,...</span></i>
+        </div><!--end div instructor_text-->
+        </div>><!--end div ibox_3-->
+        <div class="main_body2">
+            texttexttext
+            <h2>Because you enrolled in<span><i>"Introto HTML & CSSStart Making Money as a Web Developer"</i></span></h2>
+        <div class="main_body_header2">
+            View All
+        </div> <!--end main_body_header 2nd-->
+     </div> <!--end main_body 2nd-->
+     </div> <!--end div fixed_width-->
+     </div> <!--end div container-->
+
+
+
+
+
+</body>
+
+
+</html>
